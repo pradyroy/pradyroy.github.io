@@ -1,0 +1,88 @@
+title: Digital Technology Leader
+logo: /assets/logo/royforge-logo.svg
+description: > # this means to ignore newlines until "plugins:"
+  Pradyumna Roy is a software developer, with extensive experience 
+  in setting up and managing software development centres in India.
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+menu:
+  - title: royforge.com
+    url: https://royforge.github.io/
+
+cv:
+  name: "Pradyumna Roy"
+  tagline: "Digital Technology Leader & Software Developer"
+  photo: "/assets/profilepic/prady-roy-profile-pic-white-bg.png"
+  contact:
+    email: "pradyroy.in@gmail.com"
+    mobile: "+91 9850391908"
+    location: 
+      streetAddress: Magarpatta City
+      addressLocality: Pune
+      addressRegion: Maharashtra
+      addressCountry: IN
+      postalCode: 411013
+    github: "https://github.com/pradyroy"
+    blog: "https://medium.com/@pradyroy"
+    website: "https://royforge.github.io/"
+    linkedin: "https://www.linkedin.com/in/pradyroy"
+  experience:
+  - lastpositionheld: Module Lead/Senior Member Of Technical Staff
+    company: "Persistent Systems"
+    location: "Nagpur, IN"
+    starttoenddate: "02/2004 - 06/2007"
+    achievements:
+    - "Exposed to bay area startup culture."
+    - "Cultivated best of software product engineering practices."
+    positionsheld:
+    - title: "Module Lead"
+      starttoenddate: "02/2004 - 06/2007"
+    - title: "Senior Software Engineer"
+      starttoenddate: "02/2004 - 06/2007"
+  - lastpositionheld: Module Lead
+    company: "Avaya India"
+    location: "Pune, IN"
+    starttoenddate: "02/2004 - 06/2007"
+    achievements:
+    - "Rewrote a legacy enterprise app."
+    positionsheld:
+    - title: "Module Lead"
+      starttoenddate: "02/2004 - 06/2007"
+    - title: "Senior Software Engineer"
+      starttoenddate: "02/2004 - 06/2007"
+  education:
+  - degree: "Bachelors of Engineering"
+    institute: "Hitkarini College of Engineering & Technology"
+    location: "Jabalpur, IN"
+    starttoenddate: "07/1998 - 05/2002"
+  - degree: "PG Diploma in Advanced Computing"
+    institute: "CDAC, ACTS"
+    location: "Pune, IN"
+    starttoenddate: "07/2003 - 01/2004"
+  certification:
+  - name: "CAKD"
+    id: "987654321"
+    certdate: "05 March 2020"
+  - name: "AWS"
+    id: "132457689"
+    certdate: "20 March 2020"
+  skillset:
+  - "Technical Leadership"
+  - "Java"
+  - "Kubernetes"
+  - "Docker"
+  - "Microservices"
+  - "AWS"
+  retrospection:
+  - title: Transformed Business
+    description: Contributed/led 20+ GA releases of softwares which changed the way we conduct our daily business.
+  - title: Transformed People/Teams
+    description: Built teams, organisations 
+  anticipation:
+  - title: Train Young Minds
+    description: Contributed/led 20+ GA releases of softwares which changed the way we conduct our daily business.
+  - title: Build Communities
+    description: Built teams, organisations

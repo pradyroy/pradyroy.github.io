@@ -1,0 +1,82 @@
+{%- assign social = site.royforge.social_links -%}
+
+<div class="text-center center-block social">
+  {%- if social.dribbble -%}<a href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}" title="{{ social.dribbble | escape }}" target="_blank">
+  <i class="fab fa-dribbble-square fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  {%- if social.github -%}<a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}" target="_blank">
+  <i class="fab fa-github-square fa-2x"></i>
+  </a>{%- endif -%}  
+  
+  
+  
+  {%- if social.facebook -%}<a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" title="{{ social.facebook | escape }}" target="_blank">
+ <i class="fab fa-facebook-square fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  
+  {%- if social.flickr -%}<a href="https://www.flickr.com/photos/{{ social.flickr | cgi_escape | escape }}" title="{{ social.flickr | escape }}" target="_blank">
+  <i class="fab fa-flickr fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  
+  {%- if social.instagram -%}<a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" title="{{ social.instagram | escape }}" target="_blank">
+  <i class="fab fa-instagram fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  {%- if social.linkedin1 -%}<a href="https://www.linkedin.com/in/{{ social.linkedin1 | cgi_escape | escape }}" title="{{ social.linkedin1 | escape }}" target="_blank">
+  <i class="fab fa-linkedin fa-2x"></i>
+  </a>{%- endif -%}
+ 
+ 
+  {%- if social.linkedin2 -%}<a href="https://www.linkedin.com/in/{{ social.linkedin2 | cgi_escape | escape }}" title="{{ social.linkedin2 | escape }}" target="_blank">
+  <i class="fab fa-linkedin fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  {%- if social.pinterest -%}<a href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape }}" title="{{ social.pinterest | escape }}" target="_blank">
+  <i class="fab fa-pinterest-square fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  {%- for mst in social.mastodon -%}{%- if mst.username and mst.instance -%}<a rel="me" href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" title="{{ mst.username | escape }}" target="_blank">
+  <i class="fab fa-mastodon fa-2x"></i>
+  </a>{%- endif -%}{%- endfor -%}
+ 
+ 
+  {%- if social.twitter -%}<a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}" target="_blank">
+  <i class="fab fa-twitter-square fa-2x"></i>
+  </a>{%- endif -%}
+ 
+ 
+  {%- if social.youtube -%}<a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}" title="{{ social.youtube | escape }}" target="_blank">
+  <i class="fab fa-youtube fa-2x"></i>
+  </a>{%- endif -%}
+ 
+ 
+  {%- if social.youtube_channel -%}<a href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}" target="_blank">
+  <i class="fab fa-youtube fa-2x"></i>
+  </a>{%- endif -%}
+ 
+ 
+  {%- if social.telegram -%}<a href="https://t.me/{{ social.telegram | cgi_escape | escape }}" title="{{ social.telegram | escape }}" target="_blank">
+  <i class="fab fa-telegram-plane fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  {%- if social.microdotblog -%}<a rel="me" href="https://micro.blog/{{ social.microdotblog | cgi_escape | escape }}" title="{{ social.microdotblog | escape }}" target="_blank">
+  <i class="fab fa-microblog fa-2x"></i>
+  </a>{%- endif -%}
+  
+  
+  {%- if social.rss -%}<a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}" target="_blank">
+  <i class="fas fa-rss-square fa-2x"></i>
+  </a>{%- endif -%}
+  
+</div>
+
