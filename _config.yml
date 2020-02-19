@@ -1,4 +1,5 @@
 title: Digital Technology Leader
+sitename: pradyroy
 logo: /assets/logo/royforge-logo.svg
 description: > # this means to ignore newlines until "plugins:"
   Pradyumna Roy is a software developer, with extensive experience 
@@ -9,7 +10,7 @@ plugins:
  - jekyll-seo-tag
 
 menu:
-  - title: royforge.com
+  - title: royforge
     url: https://royforge.github.io/
 
 cv:
