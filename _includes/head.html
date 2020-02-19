@@ -34,33 +34,7 @@
   			path {
     			fill: #2a7ae2;
   			}
-	   	}	
- 		.social i{
-     		color: #828282;
-     		-webkit-transform: scale(0.8);
-     		/* Browser Variations: */
-     
-     		-moz-transform: scale(0.8);
-     		-o-transform: scale(0.8);
-     		-webkit-transition-duration: 0.5s;
-     		-moz-transition-duration: 0.5s;
-     		-o-transition-duration: 0.5s;
- 		}
- 		.social a{
-     		text-decoration: none;
-		}
-		.page {
-  			background: white;
-  			display: block;
-  			margin: 0 auto;
-  			margin-bottom: 0.5cm;
-  			padding: 1.5cm;
-  			box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-		}
-		.page[size="A4"] {  
-  			width: 21cm;
-  			height: 29.7cm; 
-		}
+	   	}
 		.profilepic{
 			height: 80px;
 			width: auto;
@@ -88,6 +62,15 @@
 		}
 		.inlineblock {
     		display: inline-block;
+		}
+		@media print
+		{
+			.noprint {display:none;}
+		}
+
+		@media screen
+		{
+			.noscreen {display:none;}
 		}
   </style>
   {%- feed_meta -%}
