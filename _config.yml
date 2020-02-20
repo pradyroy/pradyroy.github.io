@@ -31,51 +31,77 @@ cv:
     website: "https://royforge.github.io/"
     linkedin: "https://www.linkedin.com/in/pradyroy"
   experience:
-  - lastpositionheld: Module Lead/Senior Member Of Technical Staff
-    company: "Persistent Systems"
-    location: "Nagpur, IN"
-    starttoenddate: "02/2004 - 06/2007"
-    achievements:
-    - "Exposed to bay area startup culture."
-    - "Cultivated best of software product engineering practices."
+  - lastpositionheld: Head - Software Development
+    company: "Idemia (Oberthur Technologies)"
+    location: "Pune, IN"
+    starttoenddate: "03/2012 - till date"
+    achievements: 
     positionsheld:
-    - title: "Module Lead"
-      starttoenddate: "02/2004 - 06/2007"
-    - title: "Senior Software Engineer"
-      starttoenddate: "02/2004 - 06/2007"
+    - title: "Head - Software Development at Oberthur Technologies"
+      starttoenddate: "04/2018 - till date"
+    - title: "Head - Platform Software Factory at Oberthur Technologies"
+      starttoenddate: "04/2017 - 03/2018"
+    - title: "Director (Board Member) - Oberthur Technologies Software Factory Pvt Ltd"
+      starttoenddate: "10/2016 - 08/2019"
+    - title: "Lead Software Developer - Oberthur Technologies Software Factory Pvt Ltd" 
+      starttoenddate: "10/2016 - 03/2017"
+    - title: "Director (Board Member) - MoreMagic Software Solutions Pvt Ltd" 
+      starttoenddate: "01/2015 - 09/2016"
+    - title: "Lead Software Developer - MoreMagic Software Solutions Pvt Ltd" 
+      starttoenddate: "03/2012 - 09/2016"
+  - lastpositionheld: Team Leader
+    company: "Accenture"
+    location: "Pune, IN"
+    starttoenddate: "08/2011 - 03/2012"
   - lastpositionheld: Module Lead
     company: "Avaya India"
     location: "Pune, IN"
-    starttoenddate: "02/2004 - 06/2007"
-    achievements:
-    - "Rewrote a legacy enterprise app."
+    starttoenddate: "06/2007 - 08/2011"
+    achievements: 
     positionsheld:
     - title: "Module Lead"
-      starttoenddate: "02/2004 - 06/2007"
+      starttoenddate: "06/2010 - 08/2011"
     - title: "Senior Software Engineer"
-      starttoenddate: "02/2004 - 06/2007"
+      starttoenddate: "06/2008 - 05/2010"
+    - title: "Software Engineer"
+      starttoenddate: "06/2007 - 05/2008"      
+  - lastpositionheld: Module Lead-QE
+    company: "Persistent Systems"
+    location: "Nagpur, IN"
+    starttoenddate: "02/2004 - 05/2007"
+    achievements: 
+    positionsheld:
+    - title: "Module Lead-QE"
+      starttoenddate: "04/2007 - 05/2007"
+    - title: "Senior Member of Technical Staff-TQE"
+      starttoenddate: "04/2006 - 03/2007"
+    - title: "Member of Technical Staff-TQE"
+      starttoenddate: "10/2004 - 03/2006"  
+    - title: "Associate Member of Technical Staff-TQE"
+      starttoenddate: "02/2004 - 09/2004"
   education:
-  - degree: "Bachelors of Engineering"
+  - degree: "Bachelors of Engineering - Electronics & Communication"
     institute: "Hitkarini College of Engineering & Technology"
     location: "Jabalpur, IN"
-    starttoenddate: "07/1998 - 05/2002"
+    starttoenddate: "07/1998 - 06/2002"
   - degree: "PG Diploma in Advanced Computing"
     institute: "CDAC, ACTS"
     location: "Pune, IN"
     starttoenddate: "07/2003 - 01/2004"
   certification:
-  - name: "CAKD"
-    id: "987654321"
-    certdate: "05 March 2020"
-  - name: "AWS"
-    id: "132457689"
-    certdate: "20 March 2020"
+#  - name: "CAKD"
+#    id: "987654321"
+#    certdate: "05 March 2020"
+#  - name: "AWS"
+#    id: "132457689"
+#    certdate: "20 March 2020"
   skillset:
   - "Technical Leadership"
+  - "Team Building and Management"
   - "Java"
+  - "Microservices"
   - "Kubernetes"
   - "Docker"
-  - "Microservices"
   - "AWS"
   retrospection:
   - title: Transformed Business
