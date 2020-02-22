@@ -45,10 +45,10 @@
 	<div class="row">
 		<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 card border-0 d-flex w-100">
 			<div class="card-body">
-				<h5 class="card-title heading">EXPERIENCE</h5>
+				<h5 class="card-title heading"><i class="fas fa-briefcase pr-1"></i>EXPERIENCE</h5>
 				{%- for job in site.cv.experience -%}
 					<span class="card-subtitle clearfix">{{ job.lastpositionheld }}</span>
-					<span class="fontsizedot80 brand font-weight-bold clearfix">{{ job.company }}</span>
+					<span class="fontsizedot80 brand font-weight-bold clearfix"><i class="fas fa-building pr-1"></i>{{ job.company }}</span>
 					<span class="fontsizedot70 clearfix">
 						<i class="far fa-calendar-alt pr-1"></i>{{ job.starttoenddate }}
 						<span class="pl-1 fontsizedot70"><i class="fas fa-map-marker-alt"></i> {{ job.location }}</span>
@@ -76,7 +76,7 @@
 		</div>
 		<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 card border-0 d-flex w-100">
 			<div class="card-body clearfix">
-				<h5 class="card-title heading">RETROSPECTION</h5>
+				<h5 class="card-title heading"><i class="fas fa-history pr-1"></i>RECAP</h5>
 				{%- for retro in site.cv.retrospection -%}
   					<span class="fontsizedot80 brand font-weight-bold clearfix">{{ retro.title }}</span>
   					<span class="fontsizedot70 clearfix">{{ retro.description }}</span>
@@ -86,7 +86,7 @@
   				{%- endfor -%}		
 			</div>
 			<div class="card-body">
-				<h5 class="card-title heading">ANTICIPATION</h5>
+				<h5 class="card-title heading"><i class="fas fa-forward pr-1"></i>WORKING TOWARDS</h5>
 				{%- for future in site.cv.anticipation -%}
   					<span class="fontsizedot80 brand font-weight-bold clearfix">{{ future.title }}</span>
   					<span class="fontsizedot70 clearfix">{{ future.description }}</span>
@@ -101,10 +101,10 @@
 	<div class="row">
 		<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 card border-0 d-flex w-100">
 			<div class="card-body">
-				<h5 class="card-title heading">EDUCATION</h5>
+				<h5 class="card-title heading"><i class="fas fa-graduation-cap pr-1"></i>EDUCATION</h5>
 				{%- for edu in site.cv.education -%}
 					<span class="card-subtitle clearfix">{{ edu.degree }}</span>
-					<span class="fontsizedot80 brand font-weight-bold clearfix">{{ edu.institute }}</span>
+					<span class="fontsizedot80 brand font-weight-bold clearfix"><i class="fas fa-university pr-1"></i>{{ edu.institute }}</span>
 					<span class="fontsizedot70 clearfix">
 						<span class="fontsizedot70"><i class="fas fa-map-marker-alt pr-1"></i>{{ edu.location }}</span>
 						<i class="far fa-calendar-alt pl-1 pr-1"></i>{{ edu.starttoenddate }}
@@ -116,11 +116,11 @@
 			</div>
 			{%- if site.cv.certification.size > 0 -%}
 			<div class="card-body">
-				<h5 class="card-title heading">CERTIFICATION</h5>
+				<h5 class="card-title heading"><i class="fas fa-certificate pr-1"></i>CERTIFICATION</h5>
 				{%- for cert in site.cv.certification -%}
-					<span class="card-subtitle clearfix">{{ cert.name }}</span>
+					<span class="card-subtitle clearfix"><i class="fas fa-id-card pr-1"></i>{{ cert.name }}</span>
 					<span class="fontsizedot80 brand font-weight-bold">
-						<i class="fas fa-certificate pr-1"></i>{{ cert.id }}
+						<i class="fas fa-hashtag pr-1"></i>{{ cert.id }}
 					</span>
 					<span class="fontsizedot70 clearfix pl-1">
 						<i class="far fa-calendar-alt pr-1"></i>{{ cert.certdate }}
@@ -134,7 +134,7 @@
 		</div>
 		<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 card border-0 d-flex w-100">
 			<div class="card-body">
-				<h5 class="card-title heading">SKILLSET</h5>
+				<h5 class="card-title heading"><i class="fas fa-code pr-1"></i>SKILLSET</h5>
 				{%- for skill in site.cv.skillset -%}
 				<span class="fontsizedot80 brand inlineblock font-weight-bold mr-2">{{ skill }}</span>
 				{%- endfor -%}	

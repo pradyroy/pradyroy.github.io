@@ -96,20 +96,20 @@ cv:
 #    id: "132457689"
 #    certdate: "20 March 2020"
   skillset:
-  - "Technical Leadership"
-  - "Team Building and Management"
+  - "Leadership"
   - "Java"
+  - "Python"
   - "Microservices"
-  - "Kubernetes"
   - "Docker"
+  - "Kubernetes"
   - "AWS"
   retrospection:
-  - title: Transformed Business
-    description: Contributed/led 20+ GA releases of softwares which changed the way we conduct our daily business.
+  - title: Transformed Businesses
+    description: Contributed to/led 25+ GA release of softwares which transformed the way business is conducted in the areas of system security, network management, mobile financial services, digital payments.
   - title: Transformed People/Teams
-    description: Built teams, organisations 
+    description: Hired, trained, empowered and worked with people in building engineering culture across teams which can produce efficient, reliable, scalable and maintainable software platforms.
   anticipation:
-  - title: Train Young Minds
-    description: Contributed/led 20+ GA releases of softwares which changed the way we conduct our daily business.
-  - title: Build Communities
-    description: Built teams, organisations
+  - title: Nurturing Young Minds
+    description: Develop and deliver contents to introduce young minds to computing technologies and inculcate coding skills early in life.
+  - title: Community Enrichment
+    description: Participate and contribute to local communities and meetup groups active in the areas of microservices, docker, kubernetes, aws and leadership.
