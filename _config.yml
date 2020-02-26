@@ -18,7 +18,7 @@ cv:
   tagline: "Digital Technology Leader & Software Developer"
   photo: "/assets/profilepic/prady-roy-profile-pic-white-bg.png"
   contact:
-    email: "pradyroy.in@gmail.com"
+    email: "id.pradyroy@gmail.com"
     mobile: "+91 9850391908"
     location: 
       streetAddress: Magarpatta City
@@ -28,7 +28,7 @@ cv:
       postalCode: 411013
     github: "https://github.com/pradyroy"
     blog: "https://medium.com/@pradyroy"
-    website: "https://royforge.github.io/"
+    website: ""
     linkedin: "https://www.linkedin.com/in/pradyroy"
   experience:
   - lastpositionheld: Head - Software Development
