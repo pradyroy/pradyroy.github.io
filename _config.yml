@@ -98,11 +98,11 @@ cv:
   skillset:
   - "Leadership"
   - "Java"
-  - "Python"
+  - "RESTful Webservices"
+  - "API Development"
   - "Microservices"
   - "Docker"
   - "Kubernetes"
-  - "AWS"
   retrospection:
   - title: Transformed Businesses
     description: Contributed to/led 25+ GA release of softwares which transformed the way business is conducted in the areas of system security, network management, mobile financial services, digital payments.
