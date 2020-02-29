@@ -28,7 +28,7 @@ cv:
       postalCode: 411013
     github: "https://github.com/pradyroy"
     blog: "https://medium.com/@pradyroy"
-    website: ""
+    website: "https://royforge.github.io/"
     linkedin: "https://www.linkedin.com/in/pradyroy"
   experience:
   - lastpositionheld: Head - Software Development
@@ -103,6 +103,8 @@ cv:
   - "Microservices"
   - "Docker"
   - "Kubernetes"
+  - "Python"
+  - "AWS"
   retrospection:
   - title: Transformed Businesses
     description: Contributed to/led 25+ GA release of softwares which transformed the way business is conducted in the areas of system security, network management, mobile financial services, digital payments.
