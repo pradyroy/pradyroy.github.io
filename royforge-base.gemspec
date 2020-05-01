@@ -4,10 +4,9 @@ Gem::Specification.new do |spec|
   spec.name          = "royforge-base"
   spec.version       = "1.0.0"
   spec.authors       = ["Pradyumna Roy (Prady Roy)"]
-  spec.email         = ["id.pradyroy@gmail.com"]
 
   spec.summary       = "A beautiful theme for Jekyll."
-  spec.homepage      = "https://github.com/royforge"
+  spec.homepage      = "https://royforge.github.io"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
